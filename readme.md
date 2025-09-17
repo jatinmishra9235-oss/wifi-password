@@ -5,6 +5,7 @@
 
 ## Install
 
+
 ```
 $ npm install wifi-password
 ```
@@ -12,19 +13,17 @@ $ npm install wifi-password
 
 ## Usage
 
-```js
+
 const wifiPassword = require('wifi-password');
 
 wifiPassword().then(password => {
 	console.log(password);
 	//=> 'johndoesecretpassword'
 });
-```
-
 
 ## API
 
-### wifiPassword([name])
+### wifiPassword([Airtel_mani])
 
 Returns a promise that resolves to a string containing the password.
 
